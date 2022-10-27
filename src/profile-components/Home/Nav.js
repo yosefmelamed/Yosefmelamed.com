@@ -7,16 +7,24 @@ export default function Nav() {
       <div>
         <ul className="d-flex flex-row justify-content-between">
           <li className="my-3">
-            <a href="/Home">Home</a>
+            <a href="/Home" id="homepage">
+              Home
+            </a>
           </li>
           <li className="ms-2 my-3">
-            <a href="/About">About</a>
+            <a href="/About" id="homepage">
+              About
+            </a>
           </li>
           <li className="ms-2 my-3">
-            <a href="/Portfolio">Portfolio</a>
+            <a href="/Portfolio" id="homepage">
+              Portfolio
+            </a>
           </li>
           <li className="ms-2 me-3 my-3">
-            <a href="/Contact">Contact</a>
+            <a href="/Contact" id="homepage">
+              Contact
+            </a>
           </li>
         </ul>
       </div>
