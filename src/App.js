@@ -1,10 +1,10 @@
+import Routes1 from "./profile-components/Routes";
 import "./App.css";
-import Header from "./profile-components/Header";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Routes1 />
     </div>
   );
 }
