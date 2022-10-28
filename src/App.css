@@ -1,6 +1,8 @@
-.App {
+/* .App {
   text-align: center;
-  }
+  } */
+
+
 
 div#construction{
   background-size: cover;
@@ -26,6 +28,85 @@ div#construction{
   z-index:-500;
   position:fixed;
 }
+
+
+/* #portback{
+  margin-left: 550px ;
+  background-size: 1000px;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background-image:url("https://media.istockphoto.com/photos/blank-white-posters-picture-id472080068?k=20&m=472080068&s=612x612&w=0&h=pA-guY5m8A00f_AwiyLv7dHnGFAF2zYjTC8q_KvpBas=");
+  webkit-filter: grayscale(100%);
+  z-index:-500;
+  position:fixed;
+} */
+#portback{
+  background-size: 417px;
+  margin-top: 150px;
+  background-repeat:repeat-x;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background-image:url("https://media.istockphoto.com/photos/presentation-center-picture-id174917916?k=20&m=174917916&s=612x612&w=0&h=3Nn8vq0OwahnZ8KGrZYL4CeCxVZCJY6zfL4QbXfaUT4=");
+  webkit-filter: grayscale(100%);
+  z-index:-500;
+  position:fixed;
+}
+
+a#restaurant{
+  margin-left: 57px;
+  margin-top: 110px ;
+}
+a#welove{
+  margin-left: 275px;
+  margin-top: 110px ;
+}
+
+a#grub{
+  margin-left: 320px;
+  margin-top: 110px ;
+}
+
+a#think{
+  margin-left: 330px;
+  margin-top: 110px ;
+}
+
+p#rest{
+  margin-left: 54px;
+  margin-right: 200px;
+  margin-top: 170px;
+  text-align: center;
+}
+
+p#welove{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 30px;
+  margin-right: 130px;
+  margin-top: 170px;
+  text-align: center;
+}
+
+p#grub{
+  padding-left: 0px;
+  padding-right: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 170px;
+  text-align: center;
+}
+
+p#think{
+  margin-left: 110px;
+  margin-right: 60px;
+  margin-top: 170px;
+  text-align: center;
+}
+
 
 h1{
   /* font-family:Arial, Helvetica, sans-serif; */
