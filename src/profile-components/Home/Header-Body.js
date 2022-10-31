@@ -2,8 +2,10 @@ export default function HeaderBody() {
   return (
     <>
       <div id="back"></div>
-      <h1>Hello. My Name is Yosef Melamed</h1>
-      <img className="profile" src="images/mypicture2.jpg" alt="" />
+      <h1 className="text-center">Hello. My Name is Yosef Melamed</h1>
+      <div className="d-flex justify-content-center">
+        <img id="profile" src="images/mypicture2.jpg" alt="" />
+      </div>
       <h4 id="Home">
         I am a <span id="one">fullstack</span> developer, and{" "}
         <span id="two">I love to</span> work across the stack. I love to{" "}
