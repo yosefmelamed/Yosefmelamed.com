@@ -31,7 +31,7 @@ export default function Portfolio() {
       </h5>
       <div className="d-flex flex-row justify-content-between">
         <div
-          className="d-flex flex-column justify-content-between pt-5 pb-4"
+          className="d-flex flex-column justify-content-between pt-4 pb-4"
           id="one"
         >
           <div>
@@ -43,7 +43,7 @@ export default function Portfolio() {
           <div>
             <img
               src="/images/us-01-submit-after.png"
-              className="container-fluid pt-4"
+              className="container-fluid pt-2"
               alt="resApp"
             />
           </div>
@@ -56,7 +56,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div
-          className="d-flex flex-column justify-content-between pt-5 pb-4"
+          className="d-flex flex-column justify-content-between pt-4 pb-4"
           id="two"
         >
           <div>
@@ -64,6 +64,13 @@ export default function Portfolio() {
               {" "}
               We Love Movies{" "}
             </a>
+          </div>
+          <div>
+            <img
+              src="/images/We Love Movies.jpg"
+              className="container-fluid pb-0"
+              alt="resApp"
+            />
           </div>
           <div>
             <p id="welove">
@@ -74,14 +81,21 @@ export default function Portfolio() {
           </div>
         </div>
         <div
-          className="d-flex flex-column justify-content-between pt-5 pb-3"
+          className="d-flex flex-column justify-content-between pt-4 pb-4"
           id="three"
         >
           <div>
             <a href="https://github.com/yosefmelamed/GrubDash"> Grub Dash </a>
           </div>
           <div>
-            <p id="grub">
+            <img
+              src="https://media.istockphoto.com/photos/3d-rendering-online-order-food-concept-picture-id1014086186?k=20&m=1014086186&s=612x612&w=0&h=gYsT71JItRDsdlE0Vou3JcRVc6o3deHb4r7rIcRbWL0="
+              className="container-fluid pt-3"
+              alt="resApp"
+            />
+          </div>
+          <div id="grub">
+            <p>
               CRUD app to manage a restaurant’s menu and orders. Built using
               JavaScript, Express.js, and Express Router. Follows RESTful API
               convention and employs extensive middleware.
@@ -89,7 +103,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div
-          className="d-flex flex-column justify-content-between pt-5 pb-3"
+          className="d-flex flex-column justify-content-between pt-4 pb-3"
           id="four"
         >
           <div>
@@ -99,10 +113,17 @@ export default function Portfolio() {
             </a>
           </div>
           <div>
-            <p id="think">
+            <img
+              src="/images/Thinkful BNB.jpg"
+              className="container-fluid pb-2"
+              alt="resApp"
+            />
+          </div>
+          <div id="think" className="pb-2">
+            <p>
               State of the art responsive frontend website. Built using
               JavaScript, HTML, HTML Forms, media queries, and careful attention
-              to detail and design
+              to detail and design.
             </p>
           </div>
         </div>
