@@ -32,7 +32,7 @@ div#construction{
 
 /* #portback{
   margin-left: 550px ;
-  background-size: 1000px;
+  background-size: 1000px;z
   left:0;
   right:0;
   top:0;
@@ -74,38 +74,38 @@ a#think{
   margin-left: 330px;
   margin-top: 110px ;
 }
-
-p#rest{
-  margin-left: 54px;
-  margin-right: 200px;
-  margin-top: 170px;
+div#one{
+  width:205px;
+  height: 443px;
+  margin-top: 74px;
+  margin-left:42px;
+  text-align: center;
+}
+div#two{
+  width:205px;
+  height: 443px;
+  margin-top: 74px;
+  margin-left:48px;
+  padding-left: 10px;
+  text-align: center;
+}
+div#three{
+  width:205px;
+  height: 443px;
+  margin-top: 74px;
+  margin-left:55px;
+  padding-left:3px;
+  text-align: center;
+}
+div#four{
+  padding-left: 15px;
+  width:205px;
+  height: 443px;
+  margin-top: 74px;
+  margin-left:42px;
   text-align: center;
 }
 
-p#welove{
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: 30px;
-  margin-right: 130px;
-  margin-top: 170px;
-  text-align: center;
-}
-
-p#grub{
-  padding-left: 0px;
-  padding-right: 40px;
-  margin-left: 80px;
-  margin-right: 100px;
-  margin-top: 170px;
-  text-align: center;
-}
-
-p#think{
-  margin-left: 110px;
-  margin-right: 60px;
-  margin-top: 170px;
-  text-align: center;
-}
 
 
 h1{
@@ -142,6 +142,10 @@ h3{
   font-size: 30px;;
   color: #80ffdb;
   font-family: 'Fasthand', cursive;
+  }
+
+  h5{
+    line-height: 30px;
   }
 
   ul{
