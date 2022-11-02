@@ -2,7 +2,9 @@ export default function Nav() {
   return (
     <nav className="navbar">
       <div>
-        <h3 className="ms-4 my-2">YM</h3>
+        <h3 id="diff" className="ms-4 my-2">
+          YM
+        </h3>
       </div>
       <div>
         <ul className="d-flex flex-row justify-content-between">

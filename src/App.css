@@ -1,4 +1,4 @@
-.App {
+div#portfolio{
   width: 1535px;
   margin:auto;
   }
@@ -16,33 +16,44 @@ div#construction{
   top:0;
   bottom:0;
   background-image:url("https://media.istockphoto.com/photos/excavator-at-a-construction-site-with-cranes-picture-id1280939410?k=20&m=1280939410&s=612x612&w=0&h=k8A8uh-thh5LIzWnG5c6DiNpHZ3fUEiUIx-QnoCx8NY=");
-  webkit-filter: grayscale(100%);
   z-index:-500;
   position:fixed;
 } 
   
-#back{
+
+/* .background{
+  background-image: url("https://media.istockphoto.com/photos/code-programming-for-website-editors-view-picture-id1290492381?k=20&m=1290492381&s=612x612&w=0&h=FsX6JK-AYJuG6oV8hXlBmuoT7lXcMogVVoCLsSHesDU="),url("https://media.istockphoto.com/photos/presentation-center-picture-id174917916?k=20&m=174917916&s=612x612&w=0&h=3Nn8vq0OwahnZ8KGrZYL4CeCxVZCJY6zfL4QbXfaUT4=");
+  background-size: cover, 417px;
+  z-index:-500, -500;
+  position: fixed,fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+} */
+
+
+
+div#back{
   background-size: cover;
   left:0;
   right:0;
   top:0;
   bottom:0;
   background-image:url("https://media.istockphoto.com/photos/code-programming-for-website-editors-view-picture-id1290492381?k=20&m=1290492381&s=612x612&w=0&h=FsX6JK-AYJuG6oV8hXlBmuoT7lXcMogVVoCLsSHesDU=");
-  webkit-filter: grayscale(100%);
   z-index:-500;
   position:fixed;
 }
 
-#portback{
+div#portback{
   background-size: 417px;
-  margin-top: 150px;
+  margin-top: 140px;
   background-repeat:repeat-x;
   left:0;
   right:0;
   top:0;
-  bottom:0;
+  bottom: 0;
   background-image:url("https://media.istockphoto.com/photos/presentation-center-picture-id174917916?k=20&m=174917916&s=612x612&w=0&h=3Nn8vq0OwahnZ8KGrZYL4CeCxVZCJY6zfL4QbXfaUT4=");
-  webkit-filter: grayscale(100%);
   z-index:-500;
   position:fixed;
 }
@@ -139,7 +150,7 @@ h4#Home{
   font-weight: bold;
 }
 
-h3{
+h3#diff{
   font-size: 30px;;
   color: #80ffdb;
   font-family: 'Fasthand', cursive;
@@ -222,8 +233,58 @@ h3{
     color: #1dd3b0;
   }
   
-  
- 
   span#seven{
     color: #affc41;
   }  
+
+
+  /*footer properties; use a subtle border to blend into the picture above the footer. The links have their properties set in their seperate links classes below */
+footer{
+  height:500px;
+  text-align: center;
+  background-color:#f79256;
+  display: block;
+  margin-top: 100px;
+  padding-top: 180px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:#264653;
+}
+
+footer h3{
+padding-bottom: 25px;
+color: #3466ab;
+font-size: 25px;
+}
+
+footer, a{
+  color:#264653;
+}
+
+
+  
+
+
+
+/* linkedIn link-text size and alignment */
+.linkdin{
+  text-align: center;
+  height: 20px;
+}
+
+.github{
+  margin-left: 10px;
+}
+
+/* linkedIn logo size (it links to a picture from the web) */
+.linkdinlogo{
+  height:30px;
+  margin-bottom: 10px;
+  margin-left: 11px;
+}
+
+/*github logo size */
+.githublogo{
+margin-left: 11px;
+height: 30px;
+}
