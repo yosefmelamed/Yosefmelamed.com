@@ -1,6 +1,7 @@
-/* .App {
-  text-align: center;
-  } */
+.App {
+  width: 1535px;
+  margin:auto;
+  }
 
   html {
     line-height: 1.15; /* 1 */
@@ -75,7 +76,7 @@ div#two{
   width:205px;
   height: 443px;
   margin-top: 74px;
-  margin-left:20px;
+  margin-left:22px;
   padding-left: 10px;
   text-align: center;
 }
@@ -92,7 +93,7 @@ div#four{
   width:205px;
   height: 443px;
   margin-top: 74px;
-  margin-right: 37px;
+  margin-right: 36px;
   /* margin-left:42px; */
   text-align: center;
   width: 205px;
