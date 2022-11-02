@@ -6,7 +6,7 @@ export default function Contact() {
         <h4 className="p-4 my-5">
           This page is under construction! Please bear with us in the meantime!
         </h4>
-        <a href="/Home" id="goback" className="text-center">
+        <a href="/" id="goback" className="text-center">
           Click Here to Go Back!
         </a>
       </div>

@@ -7,7 +7,7 @@ export default function Nav() {
       <div>
         <ul className="d-flex flex-row justify-content-between">
           <li className="my-3">
-            <a href="/Home" id="homepage">
+            <a href="/" id="homepage">
               Home
             </a>
           </li>

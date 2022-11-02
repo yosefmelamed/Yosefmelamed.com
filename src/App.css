@@ -212,7 +212,7 @@ h3{
     font-size: 23px;
   }
 
-  span#two{
+  span#two, span#four, span#eight{
     color: #d6ff56;
     
   }
@@ -221,9 +221,6 @@ h3{
     color: #1dd3b0;
   }
   
-  span#four{
-    color: #d6ff56;
-  }
   
  
   span#seven{

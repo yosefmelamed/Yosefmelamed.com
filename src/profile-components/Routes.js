@@ -7,8 +7,8 @@ export default function Routes1() {
   return (
     <>
       <Routes>
-        <Route exact="true" path="/Home" element={<Home />}></Route>
-        <Route path="/" element={<Navigate to="/Home" />} />
+        <Route exact="true" path="/" element={<Home />}></Route>
+        <Route path="/Home" element={<Navigate to="/" />} />
         <Route path="/About" element={<About />}></Route>
         <Route path="/Portfolio" element={<Portfolio />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
