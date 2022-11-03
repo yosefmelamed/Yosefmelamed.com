@@ -14,7 +14,7 @@ export default function About() {
             alt="First Slide"
           />
 
-          <Carousel.Caption className="mb-2">
+          <Carousel.Caption className="mb-3">
             <h2>Hi, My name is Yosef Melamed.</h2>
           </Carousel.Caption>
         </div>
