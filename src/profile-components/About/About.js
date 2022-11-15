@@ -15,7 +15,7 @@ export default function About() {
           />
 
           <Carousel.Caption className="mb-3">
-            <h2>Hi, My name is Yosef Melamed.</h2>
+            <h2 className="fs-5">Hi, My name is Yosef Melamed.</h2>
           </Carousel.Caption>
         </div>
       </Carousel.Item>

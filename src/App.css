@@ -1,38 +1,21 @@
+body{
+  text-size-adjust: 100%;
+}
+
 div#portfolio{
   width: 1535px;
   margin:auto;
   }
 
-  html {
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+  header{
+    max-width: 100%;
   }
 
-div#construction{
-  background-size: cover;
-  background-repeat: no-repeat;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-  background-image:url("https://media.istockphoto.com/photos/excavator-at-a-construction-site-with-cranes-picture-id1280939410?k=20&m=1280939410&s=612x612&w=0&h=k8A8uh-thh5LIzWnG5c6DiNpHZ3fUEiUIx-QnoCx8NY=");
-  z-index:-500;
-  position:absolute;
-} 
-  
-
-/* .background{
-  background-image: url("https://media.istockphoto.com/photos/code-programming-for-website-editors-view-picture-id1290492381?k=20&m=1290492381&s=612x612&w=0&h=FsX6JK-AYJuG6oV8hXlBmuoT7lXcMogVVoCLsSHesDU="),url("https://media.istockphoto.com/photos/presentation-center-picture-id174917916?k=20&m=174917916&s=612x612&w=0&h=3Nn8vq0OwahnZ8KGrZYL4CeCxVZCJY6zfL4QbXfaUT4=");
-  background-size: cover, 417px;
-  z-index:-500, -500;
-  position: fixed,fixed;
-  left:0;
-  right:0;
-  top:0;
-  bottom:0;
-} */
-
-
+  html {
+    line-height: 1.15; /* 1 */
+    /* -webkit-text-size-adjust: 100%; 2 */
+    max-width: 100%;
+  }
 
 div#back{
   background-size: cover;
@@ -111,20 +94,15 @@ div#four{
   /* padding-right: 80px; */
 }
 
-div#grub{
-  
-}
-
 div#think{
   width: 200px;
 }
 
 
 h1{
-  /* font-family:Arial, Helvetica, sans-serif; */
   font-family: monospace;
   padding: auto;
-  margin: 40px 50px 50px 50px;
+  margin: 0px 50px 50px 50px;
   color: transparent;
   background-image: linear-gradient(#80ffdb,#80ffdb);
   background-repeat: no-repeat;
@@ -132,6 +110,26 @@ h1{
   background-position: -1150px,0;
   animation: backcolor 7s linear infinite;
   animation-fill-mode:forwards;
+}
+
+.nav-link{
+  font-size: 19px;
+  font-family:'Courier New', Courier, monospace;
+  color: #80ffdb;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+Nav#toggle{
+  font-size: 18px;
+  font-family:'Courier New', Courier, monospace;
+  color: #80ffdb;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.toggle{
+  color: #80ffdb;
 }
 
 @keyframes backcolor{
@@ -150,10 +148,19 @@ h4#Home{
   font-weight: bold;
 }
 
+h4#Home-b{
+  padding: auto;
+  font-family:'Courier New', Courier, monospace;
+  color: #fffcf7;
+  font-size: 17px;
+  font-weight: bold;
+}
+
 h3#diff{
-  font-size: 30px;;
+  font-size: 40px;
   color: #80ffdb;
   font-family: 'Fasthand', cursive;
+  /* margin-left: 20px; */
   }
 
   h5{
@@ -211,6 +218,13 @@ h3#diff{
     border-radius: 50%;
  }
 
+ #profile-mobile{
+  height:200px;
+  padding: 10px;
+  /* margin: 0 20px 20px 20px; */
+  border-radius: 50%;
+}
+
   span{
     font-weight: bolder;
     font-size: 22px;
@@ -232,6 +246,7 @@ h3#diff{
   span#three{
     color: #1dd3b0;
   }
+  
   
   span#seven{
     color: #affc41;
@@ -288,3 +303,7 @@ footer, a{
 margin-left: 11px;
 height: 30px;
 }
+
+
+
+
