@@ -9,6 +9,7 @@ import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 function App() {
   return (
+<<<<<<< HEAD
     <div>
       <Header />
       <Nav />
@@ -18,6 +19,10 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+=======
+    <div className="container-fluid">
+      <Routes1 />
+>>>>>>> 6816386204902ec847f11000a984317ff226cdc8
     </div>
   );
 }

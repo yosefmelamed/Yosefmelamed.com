@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* .App {
   text-align: center;
 }
@@ -10,9 +11,19 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+=======
+body{
+  text-size-adjust: 100%;
+}
+
+div#portfolio{
+  width: 1535px;
+  margin:auto;
+>>>>>>> 6816386204902ec847f11000a984317ff226cdc8
   }
 }
 
+<<<<<<< HEAD
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +47,305 @@
     transform: rotate(360deg);
   }
 } */
+=======
+  header{
+    max-width: 100%;
+  }
+
+  html {
+    line-height: 1.15; /* 1 */
+    /* -webkit-text-size-adjust: 100%; 2 */
+    max-width: 100%;
+  }
+
+div#back{
+  background-size: cover;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background-image:url("https://media.istockphoto.com/photos/code-programming-for-website-editors-view-picture-id1290492381?k=20&m=1290492381&s=612x612&w=0&h=FsX6JK-AYJuG6oV8hXlBmuoT7lXcMogVVoCLsSHesDU=");
+  z-index:-500;
+  position:fixed;
+}
+
+div#portback{
+  background-size: 417px;
+  margin-top: 140px;
+  background-repeat:repeat-x;
+  left:0;
+  right:0;
+  top:0;
+  bottom: 0;
+  background-image:url("https://media.istockphoto.com/photos/presentation-center-picture-id174917916?k=20&m=174917916&s=612x612&w=0&h=3Nn8vq0OwahnZ8KGrZYL4CeCxVZCJY6zfL4QbXfaUT4=");
+  z-index:-500;
+  position:fixed;
+}
+
+a#restaurant{
+  margin-left: 57px;
+  margin-top: 110px ;
+}
+a#welove{
+  margin-left: 275px;
+  margin-top: 110px ;
+}
+
+a#grub{
+  margin-left: 320px;
+  margin-top: 110px ;
+}
+
+a#think{
+  margin-left: 330px;
+  margin-top: 110px ;
+}
+div#one{
+  width:205px;
+  height: 443px;
+  margin-top: 74px;
+  margin-left:42px;
+  text-align: center;
+}
+div#two{
+  width:205px;
+  height: 443px;
+  margin-top: 74px;
+  margin-left:22px;
+  padding-left: 10px;
+  text-align: center;
+}
+div#three{
+  width:205px;
+  height: 443px;
+  margin-top: 74px;
+  margin-left:40px;
+  padding-right:20px;
+  margin-right: 15px;
+  text-align: center;
+}
+div#four{
+  width:205px;
+  height: 443px;
+  margin-top: 74px;
+  margin-right: 36px;
+  /* margin-left:42px; */
+  text-align: center;
+  width: 205px;
+  /* padding-right: 80px; */
+}
+
+div#think{
+  width: 200px;
+}
+
+
+h1{
+  font-family: monospace;
+  padding: auto;
+  margin: 0px 50px 50px 50px;
+  color: transparent;
+  background-image: linear-gradient(#80ffdb,#80ffdb);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -1150px,0;
+  animation: backcolor 7s linear infinite;
+  animation-fill-mode:forwards;
+}
+
+.nav-link{
+  font-size: 19px;
+  font-family:'Courier New', Courier, monospace;
+  color: #80ffdb;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+Nav#toggle{
+  font-size: 18px;
+  font-family:'Courier New', Courier, monospace;
+  color: #80ffdb;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.toggle{
+  color: #80ffdb;
+}
+
+@keyframes backcolor{
+  100%{
+    background-position: 0,0;
+  }
+}
+
+h4#Home{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 30px;
+  font-family:'Courier New', Courier, monospace;
+  color: #fffcf7;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h4#Home-b{
+  padding: auto;
+  font-family:'Courier New', Courier, monospace;
+  color: #fffcf7;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+h3#diff{
+  font-size: 40px;
+  color: #80ffdb;
+  font-family: 'Fasthand', cursive;
+  /* margin-left: 20px; */
+  }
+
+  h5{
+    line-height: 30px;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  li{
+    padding: 2px;
+  }
+
+  a{
+  text-decoration: none;
+  }
+
+  a#portfolio{
+    color: #111;
+  }
+
+  a#homepage{
+    font-size: 19px;
+    font-family:'Courier New', Courier, monospace;
+    color: #80ffdb;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+
+  a#portfolio:hover{
+    color: #3466ab;
+  }
+  
+
+  a#Home:hover{
+    color: #18b4fc;
+  }
+
+
+  a#goback{
+    font-size: 25px;
+    color: #111;
+    margin-top: 10px;
+  }
+
+  a#goback:hover{
+  color: #3466ab;
+  }
+
+  #profile{
+    height:300px;
+    padding: 10px;
+    margin: 0 20px 20px 20px;
+    border-radius: 50%;
+ }
+
+ #profile-mobile{
+  height:200px;
+  padding: 10px;
+  /* margin: 0 20px 20px 20px; */
+  border-radius: 50%;
+}
+
+  span{
+    font-weight: bolder;
+    font-size: 22px;
+  }
+
+  span#one, span#five, span#six{
+    color: #27e5fa;
+  }
+
+  span#two, span#seven{
+    font-size: 23px;
+  }
+
+  span#two, span#four, span#eight{
+    color: #d6ff56;
+    
+  }
+
+  span#three{
+    color: #1dd3b0;
+  }
+  
+  
+  span#seven{
+    color: #affc41;
+  }  
+
+
+  /*footer properties; use a subtle border to blend into the picture above the footer. The links have their properties set in their seperate links classes below */
+footer{
+  height:500px;
+  text-align: center;
+  background-color:#f79256;
+  display: block;
+  margin-top: 100px;
+  padding-top: 180px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:#264653;
+}
+
+footer h3{
+padding-bottom: 25px;
+color: #3466ab;
+font-size: 25px;
+}
+
+footer, a{
+  color:#264653;
+}
+
+
+  
+
+
+
+/* linkedIn link-text size and alignment */
+.linkdin{
+  text-align: center;
+  height: 20px;
+}
+
+.github{
+  margin-left: 10px;
+}
+
+/* linkedIn logo size (it links to a picture from the web) */
+.linkdinlogo{
+  height:30px;
+  margin-bottom: 10px;
+  margin-left: 11px;
+}
+
+/*github logo size */
+.githublogo{
+margin-left: 11px;
+height: 30px;
+}
+
+
+
+
+>>>>>>> 6816386204902ec847f11000a984317ff226cdc8
